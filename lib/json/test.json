@@ -1,0 +1,1303 @@
+{
+    "results": [
+      {
+        "fsq_id": "40db6b00f964a5207d011fe3",
+        "categories": [
+          {
+            "id": 10051,
+            "name": "경기장",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "chains": [
+          {
+            "id": "cf41f782-33bf-4f3f-8a19-28d960168158",
+            "name": "Pro MLB Stadiums"
+          }
+        ],
+        "distance": 2422,
+        "geocodes": {
+          "main": {
+            "latitude": 34.07358,
+            "longitude": -118.239854
+          },
+          "roof": {
+            "latitude": 34.07358,
+            "longitude": -118.239854
+          }
+        },
+        "link": "/v3/places/40db6b00f964a5207d011fe3",
+        "location": {
+          "address": "1000 Vin Scully Ave",
+          "census_block": "060379800101022",
+          "country": "US",
+          "cross_street": "at Stadium Way",
+          "dma": "Los Angeles",
+          "formatted_address": "1000 Vin Scully Ave (at Stadium Way), Los Angeles, CA 90012",
+          "locality": "로스앤젤레스",
+          "neighborhood": [
+            "Central City East"
+          ],
+          "postcode": "90012",
+          "region": "캘리포니아 주"
+        },
+        "name": "다저스타디움 (Dodger Stadium)",
+        "related_places": {
+          "children": [
+            {
+              "fsq_id": "4fc7fa35e4b0b1f62d3895bd",
+              "name": "Reserve Level"
+            },
+            {
+              "fsq_id": "51c23243498e16fcd96d3bfe",
+              "name": "Dodger Stadium Events Suite Luxry Box"
+            },
+            {
+              "fsq_id": "5b9048921953f3002c68c443",
+              "name": "Dodger Stadium Loge Level 158"
+            },
+            {
+              "fsq_id": "4e021a3845dd1e4999dff3af",
+              "name": "United Club Suites"
+            },
+            {
+              "fsq_id": "4fd6a49fe4b07220ec0af130",
+              "name": "Left Field Pavilion"
+            },
+            {
+              "fsq_id": "4dd5ce7a45ddced8205feb99",
+              "name": "Loge Level 158"
+            },
+            {
+              "fsq_id": "4c81a3dcd4e23704822f6088",
+              "name": "Infield Reserve Section 1"
+            },
+            {
+              "fsq_id": "5920fde01de76541b84e8298",
+              "name": "Base Bowls"
+            },
+            {
+              "fsq_id": "4c256480136d20a12b9be361",
+              "name": "Dodger Dugout"
+            },
+            {
+              "fsq_id": "4fde4773e4b094b0d1ed0f31",
+              "name": "Right Field Foul Pole"
+            },
+            {
+              "fsq_id": "523637af11d2a776098f2ed0",
+              "name": "Top Level"
+            },
+            {
+              "fsq_id": "4c33afec452620a10d02240f",
+              "name": "Lexus Dugout Club"
+            },
+            {
+              "fsq_id": "4c6cc5cf6af58cfa80da8717",
+              "name": "Dodgers Stadium Parking Los Angeles"
+            },
+            {
+              "fsq_id": "4d9778d39079b1f7f04a140a",
+              "name": "Dodger Stadium Team Store"
+            },
+            {
+              "fsq_id": "627da6e29a03f66824934cb7",
+              "name": "Speakeasy"
+            },
+            {
+              "fsq_id": "4f9cbd14e4b0849ad0b287ec",
+              "name": "Dodger Stadium Top Deck Seats"
+            },
+            {
+              "fsq_id": "593ca7a8829b0c53a169acfe",
+              "name": "Emirates Dodger Stadium Lounge"
+            },
+            {
+              "fsq_id": "516f717ae4b0556e4cf7266a",
+              "name": "Dodger Stadium Third Base Play Zone"
+            },
+            {
+              "fsq_id": "4c12f2b7a9c220a17108559d",
+              "name": "Infield Reserve Section 5"
+            },
+            {
+              "fsq_id": "51f32fbb498ee9940e451d26",
+              "name": "Dodger Stadium Club Level"
+            },
+            {
+              "fsq_id": "527ea93811d2a632319d5083",
+              "name": "Camp Flog Gnaw"
+            },
+            {
+              "fsq_id": "5927be79a5a315281a8b8ba7",
+              "name": "Jackie Robinson Statue"
+            },
+            {
+              "fsq_id": "51e195e27dd280fd85e09427",
+              "name": "Dodgers Baseball and a Movie"
+            },
+            {
+              "fsq_id": "51b4d36b498e0d4af603d1e0",
+              "name": "Stadium Club at Dodger Stadium"
+            },
+            {
+              "fsq_id": "57aa8043498e56d76d1da533",
+              "name": "Chavez Ravine"
+            },
+            {
+              "fsq_id": "58e06db4a36ecd15df4d9cf9",
+              "name": "Chick 'N Tots"
+            },
+            {
+              "fsq_id": "4dbde68a43a1d8504bb1f147",
+              "name": "Kids Run The Bases"
+            },
+            {
+              "fsq_id": "4c3a565f1e06d13ac7347b3e",
+              "name": "Infield Reserve Section 7"
+            },
+            {
+              "fsq_id": "4fbe7f79e4b057d1bdba4fe9",
+              "name": "EV Charging - Dodger Stadium - Lot N"
+            },
+            {
+              "fsq_id": "4fc57965e4b05effe8143fc9",
+              "name": "Loge Terrace"
+            },
+            {
+              "fsq_id": "5844a0e32ec3646c11b24a84",
+              "name": "Dodger Stadium Pop-up Museum"
+            },
+            {
+              "fsq_id": "4fab37ede4b0381a48b0142d",
+              "name": "Extreme Loaded Dogs"
+            },
+            {
+              "fsq_id": "4c0b0e47340720a13fa28793",
+              "name": "Right Field Pavilion"
+            },
+            {
+              "fsq_id": "57da1489cd10f7870ba96dc2",
+              "name": "Dodger Stadium BMW Club Suites"
+            },
+            {
+              "fsq_id": "60ea6fe90ef6654472630857",
+              "name": "LA Taqueria"
+            },
+            {
+              "fsq_id": "4dd3285fd22d4d4d4088c366",
+              "name": "Infield Reserve Sec 3"
+            },
+            {
+              "fsq_id": "4fc81799e4b000e38eb3d2b2",
+              "name": "Parking Lot K"
+            },
+            {
+              "fsq_id": "519bbe2c498ec7c4ba244b57",
+              "name": "Dodgers Owners Suite"
+            },
+            {
+              "fsq_id": "4e01937ab0fbdf39a457d1f8",
+              "name": "Prime Ticket Club"
+            },
+            {
+              "fsq_id": "516dfdf6498e1b5757f45e75",
+              "name": "Dodgers Stadium Loge 154/L/5&6"
+            },
+            {
+              "fsq_id": "61e5c4be9f1f0544b5ac4421",
+              "name": "Curative COVID-19 Testing Site - Dodger Stadium Drive Thru"
+            },
+            {
+              "fsq_id": "51a2556c498e1473c77a0cbd",
+              "name": "Viva Los Dodgers"
+            },
+            {
+              "fsq_id": "610e3d8ef8d8956efb1d3dde",
+              "name": "Levy Restaurants"
+            },
+            {
+              "fsq_id": "4c328759452620a1f74e220f",
+              "name": "Pitch FX Station"
+            },
+            {
+              "fsq_id": "58f6e09c8f2c1a61015e0b06",
+              "name": "The Lounge"
+            },
+            {
+              "fsq_id": "4f8af724e4b0b1c4b123e3f5",
+              "name": "Dodger Stadium Standard Parking"
+            },
+            {
+              "fsq_id": "571ef188498e6aa8065199b4",
+              "name": "Field Level"
+            }
+          ]
+        },
+        "timezone": "America/Los_Angeles"
+      },
+      {
+        "fsq_id": "49baa706f964a52091531fe3",
+        "categories": [
+          {
+            "id": 16039,
+            "name": "Urban Park",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "chains": [],
+        "distance": 10730,
+        "geocodes": {
+          "main": {
+            "latitude": 34.132768,
+            "longitude": -118.283778
+          },
+          "roof": {
+            "latitude": 34.132768,
+            "longitude": -118.283778
+          }
+        },
+        "link": "/v3/places/49baa706f964a52091531fe3",
+        "location": {
+          "address": "4730 Crystal Springs Dr",
+          "census_block": "060379800091036",
+          "country": "US",
+          "cross_street": "Mount Hollywood Dr",
+          "dma": "Los Angeles",
+          "formatted_address": "4730 Crystal Springs Dr (Mount Hollywood Dr), Los Angeles, CA 90027",
+          "locality": "로스앤젤레스",
+          "neighborhood": [
+            "Los Feliz"
+          ],
+          "postcode": "90027",
+          "region": "캘리포니아 주"
+        },
+        "name": "Griffith Park",
+        "related_places": {
+          "children": [
+            {
+              "fsq_id": "4c22f8707e85c9288bebbc21",
+              "name": "Griffith Park - Riverside/Victory Entrance"
+            },
+            {
+              "fsq_id": "4e7f4fe22c5bbc34f5209f59",
+              "name": "Dante's Peak"
+            },
+            {
+              "fsq_id": "4b42ca0af964a520e7d925e3",
+              "name": "Griffith Park Ranger Station"
+            },
+            {
+              "fsq_id": "4afee5f7f964a5205a3122e3",
+              "name": "Hollywood Sign"
+            },
+            {
+              "fsq_id": "4b490532f964a520566226e3",
+              "name": "Griffith Park Merry Go Round"
+            },
+            {
+              "fsq_id": "4b4fb231f964a520541127e3",
+              "name": "Griffith Park - Western Ave Entrance"
+            },
+            {
+              "fsq_id": "5ad2253b898bdc1976fd8002",
+              "name": "Skyline Trail"
+            },
+            {
+              "fsq_id": "42f54f00f964a520ce261fe3",
+              "name": "The Old Zoo"
+            },
+            {
+              "fsq_id": "4bc8e207cc8cd13a717ebacf",
+              "name": "Griffith Park & Southern Railroad"
+            },
+            {
+              "fsq_id": "5cec30ec031320002cdbdee0",
+              "name": "Old Zoo Trail"
+            },
+            {
+              "fsq_id": "603169b952a39f2b70a24f5a",
+              "name": "TOM LaBONGE Panorama"
+            },
+            {
+              "fsq_id": "5174687be4b0d23a228884d2",
+              "name": "Snake Hill Trail"
+            },
+            {
+              "fsq_id": "4b1c0f5ff964a5206b0124e3",
+              "name": "Roosevelt Golf Course"
+            },
+            {
+              "fsq_id": "5ebdc4fc43d6700008645252",
+              "name": "Fern Canyon Trailhead"
+            },
+            {
+              "fsq_id": "4b880ea2f964a5205bdc31e3",
+              "name": "Griffith Park Dog Park"
+            },
+            {
+              "fsq_id": "4ce056fe78ddf04d8bcca598",
+              "name": "The George Harrison Tree"
+            },
+            {
+              "fsq_id": "61958b443bb66b05c6fb5350",
+              "name": "Main Trail"
+            },
+            {
+              "fsq_id": "4baeb5e5f964a5202bd13be3",
+              "name": "Amir's Garden"
+            },
+            {
+              "fsq_id": "4e7f6ef8b6344c86c37a5324",
+              "name": "Hike The Geek"
+            },
+            {
+              "fsq_id": "5f50331313c5c74d1b2b727e",
+              "name": "Royce’s Canyon"
+            },
+            {
+              "fsq_id": "4b895670f964a520b32c32e3",
+              "name": "Griffith Park Trail"
+            },
+            {
+              "fsq_id": "4e5d1ff6d4c07641360969e9",
+              "name": "Sunset Ranch Hollywood Stables"
+            },
+            {
+              "fsq_id": "4e4fef7be4cdc76dc9b80358",
+              "name": "5 Points Junction"
+            },
+            {
+              "fsq_id": "4a331c91f964a520039b1fe3",
+              "name": "Greek Theatre"
+            },
+            {
+              "fsq_id": "49c7323ff964a520a2571fe3",
+              "name": "Los Angeles Zoo and Botanical Gardens"
+            },
+            {
+              "fsq_id": "4b46380df964a520731a26e3",
+              "name": "Harding Golf Course"
+            },
+            {
+              "fsq_id": "4e5186816284416669ac1183",
+              "name": "Glendale Peak"
+            },
+            {
+              "fsq_id": "4bc2233f4cdfc9b62fa09521",
+              "name": "Los Angeles Live Steamers Railroad Museum"
+            },
+            {
+              "fsq_id": "4bb8ea8053649c74337e47fb",
+              "name": "Bronson Caves"
+            },
+            {
+              "fsq_id": "4a6e5d0df964a52093d41fe3",
+              "name": "Griffith Observatory"
+            },
+            {
+              "fsq_id": "4b7aed44f964a52093462fe3",
+              "name": "Shane's Inspiration"
+            },
+            {
+              "fsq_id": "4b1adcf6f964a52079f323e3",
+              "name": "Griffith Park Pony Rides"
+            },
+            {
+              "fsq_id": "4ef8c212b8f72ebea9646cb4",
+              "name": "Griffith Park Hike"
+            },
+            {
+              "fsq_id": "4c2e6e8c213c2d7f35302f5d",
+              "name": "Mineral Wells Picnic Area"
+            },
+            {
+              "fsq_id": "4c201dea920076b096dbc5e9",
+              "name": "Mount Hollywood"
+            },
+            {
+              "fsq_id": "52e9040d498ee43593e096fe",
+              "name": "Griffith Park Helipad"
+            },
+            {
+              "fsq_id": "4b4b99eaf964a52098a126e3",
+              "name": "Travel Town Museum"
+            },
+            {
+              "fsq_id": "5f50336044a698602d10dca8",
+              "name": "Royce’s Canyon"
+            },
+            {
+              "fsq_id": "4ac65192f964a520afb320e3",
+              "name": "Wilson Golf Course"
+            },
+            {
+              "fsq_id": "4b384f95f964a520844d25e3",
+              "name": "The Trails"
+            },
+            {
+              "fsq_id": "4e7650371f6e072f1410d26f",
+              "name": "Crystal Springs Picnic Area"
+            },
+            {
+              "fsq_id": "4b520ca6f964a520106427e3",
+              "name": "Ferndell Trail"
+            },
+            {
+              "fsq_id": "53a73b97498e56d9917e0800",
+              "name": "Hollywood Sign Shuttle Stop"
+            },
+            {
+              "fsq_id": "4b9a68dbf964a520feb235e3",
+              "name": "Mt. Hollywood Hiking Trail"
+            },
+            {
+              "fsq_id": "4d98ecbd9079b1f74481370a",
+              "name": "Griffith Park Commonwealth Entrance"
+            },
+            {
+              "fsq_id": "505fbbe1e4b05548bdc32c92",
+              "name": "Los Angeles Haunted Hayride"
+            }
+          ]
+        },
+        "timezone": "America/Los_Angeles"
+      },
+      {
+        "fsq_id": "41687b80f964a520861d1fe3",
+        "categories": [
+          {
+            "id": 17114,
+            "name": "Shopping Mall",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/mall_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "chains": [],
+        "distance": 10718,
+        "geocodes": {
+          "main": {
+            "latitude": 34.072195,
+            "longitude": -118.357629
+          },
+          "roof": {
+            "latitude": 34.072195,
+            "longitude": -118.357629
+          }
+        },
+        "link": "/v3/places/41687b80f964a520861d1fe3",
+        "location": {
+          "address": "189 the Grove Dr",
+          "address_extended": "Ste L80",
+          "census_block": "060372145012001",
+          "country": "US",
+          "cross_street": "at W 3rd St",
+          "dma": "Los Angeles",
+          "formatted_address": "189 the Grove Dr (at W 3rd St), Los Angeles, CA 90036",
+          "locality": "로스앤젤레스",
+          "neighborhood": [
+            "Bicentennial"
+          ],
+          "postcode": "90036",
+          "region": "캘리포니아 주"
+        },
+        "name": "The Grove",
+        "related_places": {
+          "children": [
+            {
+              "fsq_id": "4b1ab11df964a5207eef23e3",
+              "name": "Nordstrom"
+            },
+            {
+              "fsq_id": "4acba975f964a520d5c420e3",
+              "name": "Patsy D'Amore's Pizza"
+            },
+            {
+              "fsq_id": "4b6f7446f964a5203af12ce3",
+              "name": "Broadcast Center Apartments"
+            },
+            {
+              "fsq_id": "58a0cd3c11742055e355ab48",
+              "name": "B5 Line NYC"
+            },
+            {
+              "fsq_id": "4ec2a2ae0aaf6450bbf2bf7a",
+              "name": "Santa's Workshop"
+            },
+            {
+              "fsq_id": "50ad98bde4b056d2a9efcc84",
+              "name": "Madewell"
+            },
+            {
+              "fsq_id": "585627a58f0be459e4cf328b",
+              "name": "Groundwork Coffee Co."
+            },
+            {
+              "fsq_id": "4a064f1ef964a520ea721fe3",
+              "name": "Maggiano's"
+            },
+            {
+              "fsq_id": "49fe6d4ef964a520a16f1fe3",
+              "name": "Pacific Theaters"
+            },
+            {
+              "fsq_id": "4c773499923ba143c49e66e6",
+              "name": "The Grove Water Fountain"
+            },
+            {
+              "fsq_id": "4cd9900ba99d370436e50bce",
+              "name": "The Grove Parking Garage"
+            },
+            {
+              "fsq_id": "4ad7d02df964a520ff0e21e3",
+              "name": "Banana Republic"
+            },
+            {
+              "fsq_id": "45baa509f964a520e8411fe3",
+              "name": "The Cheesecake Factory"
+            },
+            {
+              "fsq_id": "4a92c5b1f964a520a41d20e3",
+              "name": "Barnes & Noble"
+            },
+            {
+              "fsq_id": "5ef2ed198556300008342c38",
+              "name": "Lululemon Athletica"
+            },
+            {
+              "fsq_id": "4c0742b60e0a2d7f7420ed0c",
+              "name": "The Trolley At The Grove"
+            },
+            {
+              "fsq_id": "4eb0a348b8035a99ede2ab03",
+              "name": "Athleta"
+            },
+            {
+              "fsq_id": "62955aba2a9ed84c2b528f2c",
+              "name": "La La Land Kind Café"
+            },
+            {
+              "fsq_id": "510da57fe4b0faae35b6125b",
+              "name": "See's Candies"
+            },
+            {
+              "fsq_id": "56607e84498ec00c7ce3df0b",
+              "name": "PAIGE at the Grove"
+            },
+            {
+              "fsq_id": "4ca6ad81b0b8236ab31da2e6",
+              "name": "Gilmore Adobe"
+            },
+            {
+              "fsq_id": "4b3eb321f964a52012a125e3",
+              "name": "Coffee Corner"
+            },
+            {
+              "fsq_id": "4d363751a71b6ea8f2b65987",
+              "name": "Magee's"
+            },
+            {
+              "fsq_id": "5dacb5488813f200073c9524",
+              "name": "Sandro"
+            },
+            {
+              "fsq_id": "620c42b3cd3d9c72c375aaad",
+              "name": "OVO The Grove"
+            },
+            {
+              "fsq_id": "61206d2e6ab69a2148450f82",
+              "name": "Aritzia"
+            },
+            {
+              "fsq_id": "4aedcb9ff964a520fece21e3",
+              "name": "Bob's Coffee & Doughnuts"
+            },
+            {
+              "fsq_id": "5991e0d4f0ca9506705ee8a6",
+              "name": "Sincerely Yours"
+            },
+            {
+              "fsq_id": "60d517d0cf5d8f41a8f2864a",
+              "name": "SpacebyBMW"
+            },
+            {
+              "fsq_id": "4b035da5f964a520f64e22e3",
+              "name": "Starbucks"
+            },
+            {
+              "fsq_id": "4ae3c968f964a520f29821e3",
+              "name": "Crate & Barrel"
+            },
+            {
+              "fsq_id": "4aff21f9f964a520b23422e3",
+              "name": "Nike Running"
+            },
+            {
+              "fsq_id": "4dc5f9a2c65b89d3ca7da91f",
+              "name": "Lustre"
+            },
+            {
+              "fsq_id": "5598a579498e7530fc70f2dd",
+              "name": "Blue Ribbon Sushi Bar & Grill"
+            },
+            {
+              "fsq_id": "573d1afb498ea0b8c4cabe8a",
+              "name": "Pressed Juicery"
+            },
+            {
+              "fsq_id": "597ce957340a5810be976c91",
+              "name": "Le Labo"
+            },
+            {
+              "fsq_id": "56103a42498eff75a5b988ad",
+              "name": "Sephora"
+            },
+            {
+              "fsq_id": "4a95f51af964a520ac2520e3",
+              "name": "Cost Plus World Market"
+            },
+            {
+              "fsq_id": "5018760be4b06cb52ad7e932",
+              "name": "Dylan's Candy Bar"
+            },
+            {
+              "fsq_id": "584ee56394c690146a6cef26",
+              "name": "Illesteva"
+            },
+            {
+              "fsq_id": "4a0c64dcf964a5202b751fe3",
+              "name": "Chipotle Mexican Grill"
+            },
+            {
+              "fsq_id": "6031ad2d33636b077823c8d0",
+              "name": "Octobers Very Own"
+            },
+            {
+              "fsq_id": "4a665e4bf964a52076c81fe3",
+              "name": "French Crepe Company"
+            },
+            {
+              "fsq_id": "6119cafc349c3133be642151",
+              "name": "AMC The Grove 14 (AMC Theatres)"
+            },
+            {
+              "fsq_id": "4a6dc233f964a520f1d21fe3",
+              "name": "Marmalade Cafe"
+            },
+            {
+              "fsq_id": "4a7a381df964a520e9e81fe3",
+              "name": "The Coffee Bean and Tea Leaf"
+            },
+            {
+              "fsq_id": "4b44d78ff964a520d5fd25e3",
+              "name": "Wetzel's Pretzels"
+            },
+            {
+              "fsq_id": "61634f403f223520f0a47253",
+              "name": "Joshua Vides x BMW Exhibit"
+            },
+            {
+              "fsq_id": "4b536cbcf964a520699c27e3",
+              "name": "Bennett's Homemade Ice Cream"
+            },
+            {
+              "fsq_id": "551afbbf498e1a169ad9faba",
+              "name": "American Girl Doll Store"
+            },
+            {
+              "fsq_id": "4a74b37ef964a52044df1fe3",
+              "name": "Gap"
+            },
+            {
+              "fsq_id": "4c646064263fc9283c7ee891",
+              "name": "Salad Bar"
+            },
+            {
+              "fsq_id": "5b4c31d916fa04002c3ffbc7",
+              "name": "The Park"
+            },
+            {
+              "fsq_id": "4bed76526c5c952115e2068a",
+              "name": "Diane Von Furstenberg"
+            },
+            {
+              "fsq_id": "6206d093ff890701017afc18",
+              "name": "Maje"
+            },
+            {
+              "fsq_id": "50b18cc4e4b09dc7a632e1d1",
+              "name": "Sprinkles The Grove"
+            },
+            {
+              "fsq_id": "4ac66a09f964a5203eb420e3",
+              "name": "Michael Kors"
+            },
+            {
+              "fsq_id": "577fe703cd100392a5a8e594",
+              "name": "Haagen-Dazs Ice Cream Shops"
+            },
+            {
+              "fsq_id": "4b73144ef964a520139a2de3",
+              "name": "Deano's Gourmet Pizza"
+            },
+            {
+              "fsq_id": "5be8dffca8eb60002cce6019",
+              "name": "Schutz Pop Up"
+            },
+            {
+              "fsq_id": "4d32093fc75a6ea8be3f0aae",
+              "name": "The Broadcast Center Pool"
+            }
+          ]
+        },
+        "timezone": "America/Los_Angeles"
+      },
+      {
+        "fsq_id": "4e486cbc45dd2955e5b2cf0c",
+        "categories": [
+          {
+            "id": 16016,
+            "name": "분수대",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "chains": [],
+        "distance": 13962,
+        "geocodes": {
+          "main": {
+            "latitude": 34.136654,
+            "longitude": -118.35584
+          }
+        },
+        "link": "/v3/places/4e486cbc45dd2955e5b2cf0c",
+        "location": {
+          "census_block": "060379800391003",
+          "country": "US",
+          "cross_street": "at Universal Studios Hollywood",
+          "dma": "Los Angeles",
+          "formatted_address": "at Universal Studios Hollywood, Los Angeles, CA 91608",
+          "locality": "로스앤젤레스",
+          "neighborhood": [
+            "Cahuenga Pass"
+          ],
+          "postcode": "91608",
+          "region": "캘리포니아 주"
+        },
+        "name": "Universal Studios Hollywood Globe and Fountain",
+        "related_places": {
+          "parent": {
+            "fsq_id": "4a6cc0f0f964a52088d11fe3",
+            "name": "Universal Studios Hollywood"
+          }
+        },
+        "timezone": "America/Los_Angeles"
+      },
+      {
+        "fsq_id": "4ee3a0d59a52c1dad97abaac",
+        "categories": [
+          {
+            "id": 10001,
+            "name": "Amusement Park",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/themepark_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "chains": [],
+        "distance": 13980,
+        "geocodes": {
+          "main": {
+            "latitude": 34.137152,
+            "longitude": -118.355142
+          },
+          "roof": {
+            "latitude": 34.137152,
+            "longitude": -118.355142
+          }
+        },
+        "link": "/v3/places/4ee3a0d59a52c1dad97abaac",
+        "location": {
+          "address": "100 Universal City Plz",
+          "census_block": "060379800391003",
+          "country": "US",
+          "cross_street": "100 Universal City Plz",
+          "dma": "Los Angeles",
+          "formatted_address": "100 Universal City Plz (100 Universal City Plz), Universal City, CA 91608",
+          "locality": "Universal City",
+          "neighborhood": [
+            "Cahuenga Pass"
+          ],
+          "postcode": "91608",
+          "region": "캘리포니아 주"
+        },
+        "name": "The Wizarding World of Harry Potter",
+        "related_places": {
+          "parent": {
+            "fsq_id": "4a6cc0f0f964a52088d11fe3",
+            "name": "Universal Studios Hollywood"
+          },
+          "children": [
+            {
+              "fsq_id": "533a1ae8498e678b52761d49",
+              "name": "Hogsmeade Village"
+            },
+            {
+              "fsq_id": "56ca1b09cd10365e0b820624",
+              "name": "Three Broomsticks"
+            },
+            {
+              "fsq_id": "56f6c221498ea582de6b5a84",
+              "name": "Dervish and Banges at Universal Studios Hollywood"
+            },
+            {
+              "fsq_id": "56c0efdecd1043d2f474b9cd",
+              "name": "Harry Potter and the Forbidden Journey"
+            },
+            {
+              "fsq_id": "56c3890acd10b56ed2b84dab",
+              "name": "Flight of the Hippogriff"
+            },
+            {
+              "fsq_id": "56ccd84dcd109364c8c5b244",
+              "name": "Butterbeer Cart 2"
+            },
+            {
+              "fsq_id": "56fad49a498e78218e29873b",
+              "name": "Gladrags Wizardwear"
+            },
+            {
+              "fsq_id": "56e2216e498efc6a628bd4f7",
+              "name": "Honeydukes"
+            },
+            {
+              "fsq_id": "56fad499498e99adeb606407",
+              "name": "Zonko's Joke Shop"
+            },
+            {
+              "fsq_id": "56ccd593cd1009daa48c1e28",
+              "name": "Hog's Head Pub"
+            },
+            {
+              "fsq_id": "56fad49a498efd18efa32c41",
+              "name": "Owl Post"
+            },
+            {
+              "fsq_id": "56fad49a498ea63763028944",
+              "name": "Filch's Emporium of Confiscated Goods"
+            },
+            {
+              "fsq_id": "56fad499498e61f67ac39a38",
+              "name": "Ollivanders"
+            },
+            {
+              "fsq_id": "56e21dd6498e6459193af087",
+              "name": "Wiseacre's Wizarding Equipment"
+            }
+          ]
+        },
+        "timezone": "America/Los_Angeles"
+      },
+      {
+        "fsq_id": "4dbf1c816e810768bf9cee43",
+        "categories": [
+          {
+            "id": 10001,
+            "name": "Amusement Park",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/themepark_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "chains": [],
+        "distance": 13123,
+        "geocodes": {
+          "main": {
+            "latitude": 34.134718,
+            "longitude": -118.34547
+          },
+          "roof": {
+            "latitude": 34.134718,
+            "longitude": -118.34547
+          }
+        },
+        "link": "/v3/places/4dbf1c816e810768bf9cee43",
+        "location": {
+          "census_block": "060371897042009",
+          "country": "US",
+          "cross_street": "",
+          "dma": "Los Angeles",
+          "formatted_address": "Los Angeles, CA 91608",
+          "locality": "Los Angeles",
+          "neighborhood": [
+            "Hollywood Hills"
+          ],
+          "postcode": "91608",
+          "region": "캘리포니아 주"
+        },
+        "name": "Norman Bates' Trunk",
+        "related_places": {
+          "parent": {
+            "fsq_id": "4a6cc0f0f964a52088d11fe3",
+            "name": "Universal Studios Hollywood"
+          }
+        },
+        "timezone": "America/Los_Angeles"
+      },
+      {
+        "fsq_id": "4b88592ff964a52021f131e3",
+        "categories": [
+          {
+            "id": 10001,
+            "name": "Amusement Park",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/themepark_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "chains": [],
+        "distance": 13914,
+        "geocodes": {
+          "main": {
+            "latitude": 34.138789,
+            "longitude": -118.352768
+          },
+          "roof": {
+            "latitude": 34.138789,
+            "longitude": -118.352768
+          }
+        },
+        "link": "/v3/places/4b88592ff964a52021f131e3",
+        "location": {
+          "address": "1000 Universal Studios Blvd",
+          "census_block": "060379800391003",
+          "country": "US",
+          "cross_street": "at Universal Studios Hollywood",
+          "dma": "Los Angeles",
+          "formatted_address": "1000 Universal Studios Blvd (at Universal Studios Hollywood), Universal City, CA 91608",
+          "locality": "Universal City",
+          "neighborhood": [
+            "Cahuenga Pass"
+          ],
+          "postcode": "91608",
+          "region": "캘리포니아 주"
+        },
+        "name": "Studio Tour",
+        "related_places": {
+          "parent": {
+            "fsq_id": "4a6cc0f0f964a52088d11fe3",
+            "name": "Universal Studios Hollywood"
+          },
+          "children": [
+            {
+              "fsq_id": "4c241c1d905a0f47c5595f60",
+              "name": "King Kong 360 3-D"
+            }
+          ]
+        },
+        "timezone": "America/Los_Angeles"
+      },
+      {
+        "fsq_id": "42893400f964a5207e231fe3",
+        "categories": [
+          {
+            "id": 10051,
+            "name": "경기장",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "chains": [
+          {
+            "id": "62500e17-45ee-4bc8-a2cc-3a17035011ab",
+            "name": "Pro NBA Arenas"
+          }
+        ],
+        "distance": 2415,
+        "geocodes": {
+          "main": {
+            "latitude": 34.043103,
+            "longitude": -118.267074
+          }
+        },
+        "link": "/v3/places/42893400f964a5207e231fe3",
+        "location": {
+          "address": "1111 S Figueroa St",
+          "address_extended": "Ste 3100",
+          "census_block": "060372077111022",
+          "country": "US",
+          "cross_street": "at Chick Hearn Ct",
+          "dma": "Los Angeles",
+          "formatted_address": "1111 S Figueroa St (at Chick Hearn Ct), Los Angeles, CA 90015",
+          "locality": "로스앤젤레스",
+          "neighborhood": [
+            "Downtown Los Angeles"
+          ],
+          "postcode": "90015",
+          "region": "캘리포니아 주"
+        },
+        "name": "STAPLES Center",
+        "related_places": {
+          "children": [
+            {
+              "fsq_id": "52537dbd11d23e848239f259",
+              "name": "Ludo Bird"
+            },
+            {
+              "fsq_id": "4f0514ff722e1ef4e2d4695a",
+              "name": "Parking Lot 1"
+            },
+            {
+              "fsq_id": "57ffbd3c38fa54159d1a453a",
+              "name": "Blaze Pizza"
+            },
+            {
+              "fsq_id": "4aea40a0f964a52085ba21e3",
+              "name": "American Express Platinum Lounge"
+            },
+            {
+              "fsq_id": "4d61d3eb1939a35dc7fd31ee",
+              "name": "City View Terrace Outside Patio"
+            },
+            {
+              "fsq_id": "5a29fc9f9d6a191b4ec7caf4",
+              "name": "Golden Road Lounge"
+            },
+            {
+              "fsq_id": "4c11bcf88559ef3b9ecc6a53",
+              "name": "Team La"
+            },
+            {
+              "fsq_id": "57e17a0b498ed41afae77157",
+              "name": "Hyde Lounge"
+            },
+            {
+              "fsq_id": "5a616ce70c9f310fa0ef43a1",
+              "name": "Impact Sports Bar and Grill"
+            },
+            {
+              "fsq_id": "4c93df196b35a143530916dc",
+              "name": "Lakers Locker Room"
+            },
+            {
+              "fsq_id": "59fe02c24c954c2169f67797",
+              "name": "New Era"
+            },
+            {
+              "fsq_id": "4cf1c46b7e93f04daa554f69",
+              "name": "Gift Shop"
+            },
+            {
+              "fsq_id": "4bff0480daf9c9b681a5f9ef",
+              "name": "San Manuel Club"
+            },
+            {
+              "fsq_id": "5899fa89a6118c177e18737c",
+              "name": "Absolut Lime Bar"
+            },
+            {
+              "fsq_id": "566f3542498ee1fbcca7035e",
+              "name": "Staples Center Luxury Suites"
+            },
+            {
+              "fsq_id": "5e100e6bea67c9000719aaa9",
+              "name": "Salt & Char Burger"
+            },
+            {
+              "fsq_id": "5a7d47dcf193c02a48cc4c47",
+              "name": "B.S. Taqueria"
+            },
+            {
+              "fsq_id": "4ba6c447f964a520686e39e3",
+              "name": "Chick Hearn Press Room"
+            },
+            {
+              "fsq_id": "4e6d1e7e45dda888daaf1b00",
+              "name": "Los Angeles Kings Locker Room"
+            },
+            {
+              "fsq_id": "4d8803c43acc6dcbbf94ff1b",
+              "name": "Staples Center Parking Lot 10"
+            },
+            {
+              "fsq_id": "4b7cacd9f964a5209da02fe3",
+              "name": "Lexus Arena Club Restaurant"
+            },
+            {
+              "fsq_id": "4bbbd115e5b0d13ad7996e7c",
+              "name": "Parking Lot C"
+            },
+            {
+              "fsq_id": "59d6e495c5b11c265f740ce2",
+              "name": "DTLA Sports Bar & Grill"
+            },
+            {
+              "fsq_id": "4e8e981e9adf0d7c352d1230",
+              "name": "Buss Stop Bar"
+            }
+          ]
+        },
+        "timezone": "America/Los_Angeles"
+      },
+      {
+        "fsq_id": "573653a8cd10156639da8575",
+        "categories": [
+          {
+            "id": 17033,
+            "name": "백화점",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/departmentstore_",
+              "suffix": ".png"
+            }
+          },
+          {
+            "id": 17034,
+            "name": "할인 점포",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/discountstore_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "chains": [
+          {
+            "id": "ab4b9fa0-d68a-012e-5619-003048cad9da",
+            "name": "Walmart"
+          }
+        ],
+        "distance": 17718,
+        "geocodes": {
+          "main": {
+            "latitude": 33.924486,
+            "longitude": -118.12867
+          },
+          "roof": {
+            "latitude": 33.924486,
+            "longitude": -118.12867
+          }
+        },
+        "link": "/v3/places/573653a8cd10156639da8575",
+        "location": {
+          "address": "9001 Apollo Way",
+          "census_block": "060375511011006",
+          "country": "US",
+          "cross_street": "",
+          "dma": "Los Angeles",
+          "formatted_address": "9001 Apollo Way, Downey, CA 90242",
+          "locality": "다우니",
+          "postcode": "90242",
+          "region": "캘리포니아 주"
+        },
+        "name": "Walmart Supercenter",
+        "related_places": {
+          "children": [
+            {
+              "fsq_id": "58cd8402110d037d327e5c48",
+              "name": "Burger King"
+            },
+            {
+              "fsq_id": "5c4b7cbc15173e002cf582df",
+              "name": "Walmart Grocery Pickup & Delivery"
+            }
+          ]
+        },
+        "timezone": "America/Los_Angeles"
+      },
+      {
+        "fsq_id": "4161e400f964a5206f1d1fe3",
+        "categories": [
+          {
+            "id": 10039,
+            "name": "음악 베뉴",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/musicvenue_",
+              "suffix": ".png"
+            }
+          }
+        ],
+        "chains": [],
+        "distance": 11062,
+        "geocodes": {
+          "main": {
+            "latitude": 34.112642,
+            "longitude": -118.338815
+          },
+          "roof": {
+            "latitude": 34.112642,
+            "longitude": -118.338815
+          }
+        },
+        "link": "/v3/places/4161e400f964a5206f1d1fe3",
+        "location": {
+          "address": "2301 N Highland Ave",
+          "census_block": "060371897021003",
+          "country": "US",
+          "cross_street": "at Hollywood Bowl Rd",
+          "dma": "Los Angeles",
+          "formatted_address": "2301 N Highland Ave (at Hollywood Bowl Rd), Los Angeles, CA 90068",
+          "locality": "로스앤젤레스",
+          "neighborhood": [
+            "Hollywood Heights"
+          ],
+          "postcode": "90068",
+          "region": "캘리포니아 주"
+        },
+        "name": "Hollywood Bowl (The Hollywood Bowl)",
+        "related_places": {
+          "children": [
+            {
+              "fsq_id": "4c4390dadd1f2d7fb7b77ef9",
+              "name": "Edmund D Edelman Hollywood Bowl Museum"
+            },
+            {
+              "fsq_id": "4dfc076afa76c83b6e7b7d49",
+              "name": "Hollywood Bowl Picnic Area"
+            },
+            {
+              "fsq_id": "597ac6bc0d8a0f47dd3dd909",
+              "name": "The Bowl Marketplace"
+            },
+            {
+              "fsq_id": "5978288ebfc6d036e5409947",
+              "name": "Monique And Jonathan Kagan Patio"
+            },
+            {
+              "fsq_id": "590fd6599de23b76e2930eba",
+              "name": "The Backyard"
+            },
+            {
+              "fsq_id": "5b4bf0b5dff8150039b76bc2",
+              "name": "Hollywood Bowl Tunnel"
+            }
+          ]
+        },
+        "timezone": "America/Los_Angeles"
+      }
+    ],
+    "context": {
+      "geo_bounds": {
+        "circle": {
+          "center": {
+            "latitude": 34.052239,
+            "longitude": -118.243398
+          },
+          "radius": 22000
+        }
+      }
+    }
+  }
