@@ -827,7 +827,7 @@
             "longitude": -118.355142
           }
         },
-        "link": "/v3/places/4ee3a0d59a52c1dad97abaac",
+        "link": "2c1da/v3/places/4ee3a0d59a5d97abaac",
         "location": {
           "address": "100 Universal City Plz",
           "census_block": "060379800391003",
@@ -1203,7 +1203,7 @@
           "postcode": "90242",
           "region": "캘리포니아 주"
         },
-        "name": "Walmart Supercenter",
+        "name": "   ",
         "related_places": {
           "children": [
             {
