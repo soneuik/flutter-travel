@@ -60,18 +60,23 @@ class _POILISTState extends State<POILIST> {
         ),
         body: Center(
           child: FutureBuilder(
-            future: Future.wait([
-              getPOIdata(),
-            ]),
+            future: getPOIdata(),
             builder: (context, snapshot) {
               if (snapshot.hasData) {
                 var items = snapshot.data as List<POI>;
                 return ListView.builder(
                     shrinkWrap: true,
-                    physics: NeverScrollableScrollPhysics(),
+                    physics: AlwaysScrollableScrollPhysics(),
                     itemCount: items.length,
                     itemBuilder: (context, index) {
-                      return Text(items[index].poi_name);
+                      //show POI list data
+                      return Flexible(
+                          child: Container(
+                        padding: EdgeInsets.all(5.0),
+                        child: Text(items[index].poi_name +
+                            "\n" +
+                            items[index].poi_address),
+                      ));
                     });
               } else if (snapshot.hasError) {
                 return Text("${snapshot.error}");
@@ -90,13 +95,15 @@ class POI {
   String poi_name = "";
   String poi_address = "";
 
-  POI({required this.poi_name});
+  POI({required this.poi_name, required this.poi_address});
 
   //https://docs.flutter.dev/development/data-and-backend/json
   //  Map<String, dynamic> data = jsonDecode(response.body);
   //  String token = data["data"]["access_token"];
   factory POI.fromJson(Map<String, dynamic> json) {
-    return POI(poi_name: json['name']);
+    return POI(
+        poi_name: json['name'],
+        poi_address: json['location']['formatted_address']);
   }
 }
 
@@ -108,3 +115,6 @@ class POI {
 
  
  
+
+ //TO put two API data together in one page
+ //https://stackoverflow.com/questions/51666034/flutter-is-it-possbile-to-have-multiple-futurebuilder-or-a-futurebuilder-for-mu

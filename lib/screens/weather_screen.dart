@@ -60,7 +60,28 @@ class _WeatherScreenState extends State<WeatherScreen> {
                     physics: NeverScrollableScrollPhysics(),
                     itemCount: items.length,
                     itemBuilder: (context, index) {
-                      return Text(items[index].temprature.toString());
+                      return Center(
+                          child: Container(
+                        padding: EdgeInsets.all(15),
+                        child: Text(
+                            "temperature: " +
+                                items[index].temprature.toString() +
+                                '\n' +
+                                "speed: " +
+                                items[index].speed.toString() +
+                                '\n' +
+                                "humidity: " +
+                                items[index].humidity.toString() +
+                                '\n' +
+                                "cityName: " +
+                                items[index].cityName.toString() +
+                                '\n' +
+                                "date: " +
+                                items[index].formattedDate.toString() +
+                                '\n',
+                            style: TextStyle(),
+                            softWrap: true),
+                      ));
                     });
               } else if (snapshot.hasError) {
                 return Text("${snapshot.error}");
@@ -87,13 +108,13 @@ class Weather {
 
   Weather(
       {required this.temprature,
-      cityName,
-      country,
-      main,
-      speed,
-      humidity,
-      pressure,
-      formattedDate});
+      required this.cityName,
+      required this.country,
+      required this.main,
+      required this.speed,
+      required this.humidity,
+      required this.pressure,
+      required this.formattedDate});
 
   factory Weather.fromJson(Map<String, dynamic> json) {
     var timezone = json['timezone'];
