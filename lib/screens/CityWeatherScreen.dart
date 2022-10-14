@@ -3,7 +3,6 @@ import 'package:flutter/widgets.dart';
 import 'package:date_format/date_format.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:tourist_guide_california/models/Weather.dart';
-
 import 'city_screen.dart';
 
 class CityWeatherScreen extends StatefulWidget {

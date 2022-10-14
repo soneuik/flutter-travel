@@ -60,7 +60,9 @@ class _POILISTState extends State<POILIST> {
         ),
         body: Center(
           child: FutureBuilder(
-            future: getPOIdata(),
+            future: Future.wait([
+              getPOIdata(),
+            ]),
             builder: (context, snapshot) {
               if (snapshot.hasData) {
                 var items = snapshot.data as List<POI>;
