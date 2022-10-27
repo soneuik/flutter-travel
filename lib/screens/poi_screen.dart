@@ -17,11 +17,11 @@ class _POILISTState extends State<POILIST> {
     try {
       //34.052239,-118.243398
       //Latitude: 34.052239 ; Longitude: -118.243398 of la
-      var lan = '34.052239';
+      var lat = '34.052239';
       var long = '-118.243398';
       var cityName = 'Los Angeles';
       final uri = Uri.parse(
-          'https://api.foursquare.com/v3/places/search?ll=$lan%2C$long&sort=POPULARITY'); // where we are going to connect: API address.
+          'https://api.foursquare.com/v3/places/search?ll=$lat%2C$long&sort=POPULARITY'); // where we are going to connect: API address.
       //    --header 'Authorization: fsq33Lsqz7rG2M8eRkSMm8kFXFQKo6EZ6ecw4ei5/ZD2Xf0=' \
       //    --header 'accept: application/json'
       final baseHeader = {
