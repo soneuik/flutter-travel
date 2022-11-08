@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tourist_guide_california/screens/cardview.dart';
 import 'screens/autocomplete.dart';
 import 'screens/city_screen.dart';
 import 'screens/poi_screen.dart';
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
-      home: CityPage(),
+      home: POILIST(),
     );
   }
 }

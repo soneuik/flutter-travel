@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
@@ -70,13 +71,60 @@ class _POILISTState extends State<POILIST> {
                     itemCount: items.length,
                     itemBuilder: (context, index) {
                       //show POI list data
-                      return Flexible(
-                          child: Container(
-                        padding: EdgeInsets.all(5.0),
-                        child: Text(items[index].poi_name +
-                            "\n" +
-                            items[index].poi_address),
-                      ));
+                      return Card(
+                        clipBehavior: Clip.antiAliasWithSaveLayer,
+                        color: Color(0xE7747BF2),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.max,
+                          children: [
+                            Row(
+                              mainAxisSize: MainAxisSize.max,
+                              children: [
+                                Expanded(
+                                  child: Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        5, 5, 5, 5),
+                                    child: Text(
+                                      items[index].poi_name,
+                                      maxLines: 1,
+                                      style: GoogleFonts.getFont(
+                                        'Poppins',
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 24,
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                            Row(
+                              mainAxisSize: MainAxisSize.max,
+                              children: [
+                                Expanded(
+                                  child: Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        5, 5, 5, 5),
+                                    child: Text(
+                                      items[index].poi_address,
+                                      maxLines: 1,
+                                      style: GoogleFonts.getFont(
+                                        'Poppins',
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 16,
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      );
                     });
               } else if (snapshot.hasError) {
                 return Text("${snapshot.error}");

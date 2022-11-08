@@ -71,7 +71,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
                                 items[index].speed.toString() +
                                 '\n' +
                                 "humidity: " +
-                                items[index].humidity.toString() +
+                                items[index].humidity.toString() +m
                                 '\n' +
                                 "cityName: " +
                                 items[index].cityName.toString() +
