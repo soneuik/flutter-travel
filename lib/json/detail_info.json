@@ -1,0 +1,238 @@
+{
+    "fsq_id": "40db6b00f964a5207d011fe3",
+    "categories": [
+      {
+        "id": 10051,
+        "name": "경기장",
+        "icon": {
+          "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/stadium_",
+          "suffix": ".png"
+        }
+      }
+    ],
+    "chains": [
+      {
+        "id": "cf41f782-33bf-4f3f-8a19-28d960168158",
+        "name": "Pro MLB Stadiums"
+      }
+    ],
+    "geocodes": {
+      "main": {
+        "latitude": 34.07358,
+        "longitude": -118.239854
+      },
+      "roof": {
+        "latitude": 34.07358,
+        "longitude": -118.239854
+      }
+    },
+    "link": "/v3/places/40db6b00f964a5207d011fe3",
+    "location": {
+      "address": "1000 Vin Scully Ave",
+      "census_block": "060379800101022",
+      "country": "US",
+      "cross_street": "at Stadium Way",
+      "dma": "Los Angeles",
+      "formatted_address": "1000 Vin Scully Ave (at Stadium Way), Los Angeles, CA 90012",
+      "locality": "로스앤젤레스",
+      "neighborhood": [
+        "Central City East"
+      ],
+      "postcode": "90012",
+      "region": "캘리포니아 주"
+    },
+    "name": "다저스타디움 (Dodger Stadium)",
+    "related_places": {
+      "children": [
+        {
+          "fsq_id": "4fc7fa35e4b0b1f62d3895bd",
+          "name": "Reserve Level"
+        },
+        {
+          "fsq_id": "51c23243498e16fcd96d3bfe",
+          "name": "Dodger Stadium Events Suite Luxry Box"
+        },
+        {
+          "fsq_id": "5b9048921953f3002c68c443",
+          "name": "Dodger Stadium Loge Level 158"
+        },
+        {
+          "fsq_id": "4e021a3845dd1e4999dff3af",
+          "name": "United Club Suites"
+        },
+        {
+          "fsq_id": "4fd6a49fe4b07220ec0af130",
+          "name": "Dodgers Stadium-Left field pavilions"
+        },
+        {
+          "fsq_id": "4dd5ce7a45ddced8205feb99",
+          "name": "Loge Level 158"
+        },
+        {
+          "fsq_id": "4c81a3dcd4e23704822f6088",
+          "name": "Infield Reserve Section 1"
+        },
+        {
+          "fsq_id": "5920fde01de76541b84e8298",
+          "name": "Base Bowls"
+        },
+        {
+          "fsq_id": "4c256480136d20a12b9be361",
+          "name": "Dodger Dugout"
+        },
+        {
+          "fsq_id": "4fde4773e4b094b0d1ed0f31",
+          "name": "Right Field Foul Pole"
+        },
+        {
+          "fsq_id": "523637af11d2a776098f2ed0",
+          "name": "Top Level"
+        },
+        {
+          "fsq_id": "4c33afec452620a10d02240f",
+          "name": "Lexus Dugout Club"
+        },
+        {
+          "fsq_id": "4c6cc5cf6af58cfa80da8717",
+          "name": "Dodgers Stadium Parking Los Angeles"
+        },
+        {
+          "fsq_id": "4d9778d39079b1f7f04a140a",
+          "name": "Dodger Stadium Team Store"
+        },
+        {
+          "fsq_id": "627da6e29a03f66824934cb7",
+          "name": "Speakeasy"
+        },
+        {
+          "fsq_id": "4f9cbd14e4b0849ad0b287ec",
+          "name": "Dodger Stadium Top Deck Seats"
+        },
+        {
+          "fsq_id": "593ca7a8829b0c53a169acfe",
+          "name": "Emirates Dodger Stadium Lounge"
+        },
+        {
+          "fsq_id": "516f717ae4b0556e4cf7266a",
+          "name": "Dodger Stadium Third Base Play Zone"
+        },
+        {
+          "fsq_id": "4c12f2b7a9c220a17108559d",
+          "name": "Infield Reserve Section 5"
+        },
+        {
+          "fsq_id": "51f32fbb498ee9940e451d26",
+          "name": "Dodger Stadium Club Level"
+        },
+        {
+          "fsq_id": "527ea93811d2a632319d5083",
+          "name": "Camp Flog Gnaw"
+        },
+        {
+          "fsq_id": "5927be79a5a315281a8b8ba7",
+          "name": "Jackie Robinson Statue"
+        },
+        {
+          "fsq_id": "51e195e27dd280fd85e09427",
+          "name": "Dodgers Baseball and a Movie"
+        },
+        {
+          "fsq_id": "51b4d36b498e0d4af603d1e0",
+          "name": "Stadium Club at Dodger Stadium"
+        },
+        {
+          "fsq_id": "57aa8043498e56d76d1da533",
+          "name": "Chavez Ravine"
+        },
+        {
+          "fsq_id": "58e06db4a36ecd15df4d9cf9",
+          "name": "Chick 'N Tots"
+        },
+        {
+          "fsq_id": "4dbde68a43a1d8504bb1f147",
+          "name": "Kids Run The Bases"
+        },
+        {
+          "fsq_id": "4c3a565f1e06d13ac7347b3e",
+          "name": "Infield Reserve Section 7"
+        },
+        {
+          "fsq_id": "4fbe7f79e4b057d1bdba4fe9",
+          "name": "EV Charging - Dodger Stadium - Lot N"
+        },
+        {
+          "fsq_id": "4fc57965e4b05effe8143fc9",
+          "name": "Loge Terrace"
+        },
+        {
+          "fsq_id": "5844a0e32ec3646c11b24a84",
+          "name": "Dodger Stadium Pop-up Museum"
+        },
+        {
+          "fsq_id": "4fab37ede4b0381a48b0142d",
+          "name": "Extreme Loaded Dogs"
+        },
+        {
+          "fsq_id": "4c0b0e47340720a13fa28793",
+          "name": "Right Field Pavilion"
+        },
+        {
+          "fsq_id": "57da1489cd10f7870ba96dc2",
+          "name": "Dodger Stadium BMW Club Suites"
+        },
+        {
+          "fsq_id": "60ea6fe90ef6654472630857",
+          "name": "LA Taqueria"
+        },
+        {
+          "fsq_id": "4dd3285fd22d4d4d4088c366",
+          "name": "Infield Reserve Sec 3"
+        },
+        {
+          "fsq_id": "4fc81799e4b000e38eb3d2b2",
+          "name": "Parking Lot K"
+        },
+        {
+          "fsq_id": "519bbe2c498ec7c4ba244b57",
+          "name": "Dodgers Owners Suite"
+        },
+        {
+          "fsq_id": "4e01937ab0fbdf39a457d1f8",
+          "name": "Prime Ticket Club"
+        },
+        {
+          "fsq_id": "516dfdf6498e1b5757f45e75",
+          "name": "Dodgers Stadium Loge 154/L/5&6"
+        },
+        {
+          "fsq_id": "61e5c4be9f1f0544b5ac4421",
+          "name": "Curative COVID-19 Testing Site - Dodger Stadium Drive Thru"
+        },
+        {
+          "fsq_id": "51a2556c498e1473c77a0cbd",
+          "name": "Viva Los Dodgers"
+        },
+        {
+          "fsq_id": "610e3d8ef8d8956efb1d3dde",
+          "name": "Levy Restaurants"
+        },
+        {
+          "fsq_id": "4c328759452620a1f74e220f",
+          "name": "Pitch FX Station"
+        },
+        {
+          "fsq_id": "58f6e09c8f2c1a61015e0b06",
+          "name": "The Lounge"
+        },
+        {
+          "fsq_id": "4f8af724e4b0b1c4b123e3f5",
+          "name": "Dodger Stadium Standard Parking"
+        },
+        {
+          "fsq_id": "571ef188498e6aa8065199b4",
+          "name": "Field Level"
+        }
+      ]
+    },
+    "timezone": "America/Los_Angeles"
+  }

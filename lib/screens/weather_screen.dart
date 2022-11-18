@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:date_format/date_format.dart';
-import 'package:flutter_icons/flutter_icons.dart';
-import 'package:tourist_guide_california/models/Weather.dart';
-import 'city_screen.dart';
 import 'dart:io';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
+
+import 'city_screen.dart';
 
 class WeatherScreen extends StatefulWidget {
   const WeatherScreen({Key? key}) : super(key: key);
@@ -19,7 +18,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
   Future<dynamic> getWeatherData() async {
     try {
       String apiKey = '5baf4d3d75d0493865be21ec71f9ad59';
-      var cityName = 'Burbank';
+      var cityName = 'Los Angeles';
       final uri = Uri.parse(
           'https://api.openweathermap.org/data/2.5/weather?q=$cityName&units=metric&appid=$apiKey'); // where we are going to connect: API address.
 
@@ -41,57 +40,60 @@ class _WeatherScreenState extends State<WeatherScreen> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Fetch Data Example',
+      debugShowCheckedModeBanner: false,
+      title: 'Weather Page',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('Fetch Data Example'),
-        ),
-        body: Center(
-          child: FutureBuilder(
-            future: getWeatherData(),
-            builder: (context, snapshot) {
-              if (snapshot.hasData) {
-                var items = snapshot.data as List<Weather>;
-                return ListView.builder(
-                    shrinkWrap: true,
-                    physics: NeverScrollableScrollPhysics(),
-                    itemCount: items.length,
-                    itemBuilder: (context, index) {
-                      return Center(
-                          child: Container(
-                        padding: EdgeInsets.all(15),
-                        child: Text(
-                            "temperature: " +
-                                items[index].temprature.toString() +
-                                '\n' +
-                                "speed: " +
-                                items[index].speed.toString() +
-                                '\n' +
-                                "humidity: " +
-                                items[index].humidity.toString() +m
-                                '\n' +
-                                "cityName: " +
-                                items[index].cityName.toString() +
-                                '\n' +
-                                "date: " +
-                                items[index].formattedDate.toString() +
-                                '\n',
-                            style: TextStyle(),
-                            softWrap: true),
-                      ));
-                    });
-              } else if (snapshot.hasError) {
-                return Text("${snapshot.error}");
-              }
-              // By default, show a loading spinner.
-              return CircularProgressIndicator();
-            },
+          appBar: AppBar(
+            title: Text('Weather Page'),
           ),
-        ),
-      ),
+          body: Column(children: [
+            CityPage(),
+            Center(
+              child: FutureBuilder(
+                future: getWeatherData(),
+                builder: (context, snapshot) {
+                  if (snapshot.hasData) {
+                    var items = snapshot.data as List<Weather>;
+                    return ListView.builder(
+                        shrinkWrap: true,
+                        physics: NeverScrollableScrollPhysics(),
+                        itemCount: items.length,
+                        itemBuilder: (context, index) {
+                          return Center(
+                              child: Container(
+                            padding: EdgeInsets.all(15),
+                            child: Text(
+                                "temperature: " +
+                                    items[index].temprature.toString() +
+                                    '\n' +
+                                    "speed: " +
+                                    items[index].speed.toString() +
+                                    '\n' +
+                                    "humidity: " +
+                                    items[index].humidity.toString() +
+                                    '\n' +
+                                    "cityName: " +
+                                    items[index].cityName.toString() +
+                                    '\n' +
+                                    "date: " +
+                                    items[index].formattedDate.toString() +
+                                    '\n',
+                                style: TextStyle(),
+                                softWrap: true),
+                          ));
+                        });
+                  } else if (snapshot.hasError) {
+                    return Text("${snapshot.error}");
+                  }
+                  // By default, show a loading spinner.
+                  return CircularProgressIndicator();
+                },
+              ),
+            ),
+          ])),
     );
   }
 }

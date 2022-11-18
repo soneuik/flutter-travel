@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_icons/flutter_icons.dart';
 import 'package:http/http.dart' as http;
 
 class Weather {
