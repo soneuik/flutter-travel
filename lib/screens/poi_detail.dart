@@ -10,22 +10,29 @@ import 'package:cached_network_image/cached_network_image.dart';
 
 class PoiDetail extends StatefulWidget {
   const PoiDetail(
-      {Key? key, required this.title, required this.poi_detail_key_fsq_id})
+      {Key? key,
+      required this.title,
+      required this.poi_detail_key_fsq_id,
+      required this.poi_name,
+      required this.poi_address})
       : super(key: key);
   final String title;
   final String poi_detail_key_fsq_id;
+  final String poi_name;
+  final String poi_address;
 
   @override
-  State<PoiDetail> createState() => _PoiDetailState(poi_detail_key_fsq_id);
+  State<PoiDetail> createState() =>
+      _PoiDetailState(poi_detail_key_fsq_id, poi_name, poi_address);
 }
 
 class _PoiDetailState extends State<PoiDetail> {
   String poi_detail_key_fsq_id = "";
-  String prefix = "";
-  String suffix = "";
+  String poi_name = "";
+  String poi_address = "";
   String detailImageUrl = "";
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  _PoiDetailState(this.poi_detail_key_fsq_id);
+  _PoiDetailState(this.poi_detail_key_fsq_id, this.poi_name, this.poi_address);
 
   Future<String> getPOIDetailImageUrl(var poi_detail_key_fsq_id) async {
     String apiKey = 'fsq33Lsqz7rG2M8eRkSMm8kFXFQKo6EZ6ecw4ei5/ZD2Xf0=';
@@ -51,8 +58,8 @@ class _PoiDetailState extends State<PoiDetail> {
         //Something else to work.
         List responseList = jsonDecode(response.body);
         //print(responseList[0]['results']);
-        prefix = responseList[0]['prefix'];
-        suffix = responseList[0]['suffix'];
+        var prefix = responseList[0]['prefix'];
+        var suffix = responseList[0]['suffix'];
         detailImageUrl = "$prefix" + "500x400" + "$suffix";
         print("detailImageUrl: " + detailImageUrl);
         return detailImageUrl;
@@ -90,9 +97,6 @@ class _PoiDetailState extends State<PoiDetail> {
         //Something else to work.
         List responseList = jsonDecode(response.body);
         //print(responseList[0]['results']);
-        prefix = responseList[0]['prefix'];
-        suffix = responseList[0]['suffix'];
-        detailImageUrl = "$prefix" + "500x400" + "$suffix";
         print("detailImageUrl: " + detailImageUrl);
         return null;
 
@@ -214,7 +218,7 @@ class _PoiDetailState extends State<PoiDetail> {
                           child: Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(5, 5, 5, 5),
                             child: Text(
-                              'Hollywood Sign',
+                              poi_name,
                               style: GoogleFonts.getFont(
                                 'Poppins',
                                 color: Color(0xFF101213),
@@ -233,7 +237,7 @@ class _PoiDetailState extends State<PoiDetail> {
                           child: Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(5, 5, 5, 5),
                             child: Text(
-                              'Historical landmark in Los Angeles, California',
+                              poi_address,
                               style: GoogleFonts.getFont(
                                 'Poppins',
                                 color: Color(0xFF57636C),

@@ -164,9 +164,12 @@ class _POILISTState extends State<POILIST> {
                             Navigator.of(context).push(
                               MaterialPageRoute(
                                 builder: (context) => PoiDetail(
-                                    title: 'Poi_detail',
-                                    poi_detail_key_fsq_id:
-                                        items[index].poi_detail_key_fsq_id),
+                                  title: 'Poi_detail',
+                                  poi_detail_key_fsq_id:
+                                      items[index].poi_detail_key_fsq_id,
+                                  poi_name: items[index].poi_name,
+                                  poi_address: items[index].poi_address,
+                                ),
                               ),
                             );
                           },
