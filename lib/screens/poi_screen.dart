@@ -165,6 +165,7 @@ class _POILISTState extends State<POILIST> {
                               MaterialPageRoute(
                                 builder: (context) => PoiDetail(
                                   title: 'Poi_detail',
+                                  city: onSelectedCity,
                                   poi_detail_key_fsq_id:
                                       items[index].poi_detail_key_fsq_id,
                                   poi_name: items[index].poi_name,
@@ -195,7 +196,8 @@ class _POILISTState extends State<POILIST> {
                                           maxLines: 1,
                                           style: GoogleFonts.getFont(
                                             'Poppins',
-                                            color: Colors.white,
+                                            color: Color.fromARGB(
+                                                255, 233, 244, 80),
                                             fontWeight: FontWeight.w600,
                                             fontSize: 24,
                                           ),
