@@ -1,9 +1,11 @@
 import 'dart:io';
 import 'package:autocomplete_textfield/autocomplete_textfield.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_map/flutter_map.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
+import 'package:latlong2/latlong.dart';
 import 'dart:convert';
 
 import 'poi_detail.dart';
@@ -19,19 +21,28 @@ class _POILISTState extends State<POILIST> {
   static String onSelectedCity = "Los Angeles";
   static String onSelectedLat = '34.052239';
   static String onSelectedLong = '-118.243398';
-
+  List<PoiDetail> poi_detail_list = [];
   GlobalKey<AutoCompleteTextFieldState<City>> key = new GlobalKey();
 
   late AutoCompleteTextField searchTextField;
   TextEditingController controller = new TextEditingController();
 
+  late MapController _mapController;
+
   void _loadData() async {
     await CitiesViewModel.loadCities1();
+  }
+
+  void moveMapCenter(double lan, double long) {
+    _mapController.move(LatLng(lan, long), 10.0);
   }
 
   @override
   void initState() {
     _loadData();
+    _mapController = MapController();
+
+    print(poi_detail_list);
     super.initState();
   }
 
@@ -107,6 +118,8 @@ class _POILISTState extends State<POILIST> {
                     onSelectedCity = item.cityName;
                     onSelectedLat = item.latitude;
                     onSelectedLong = item.longitude;
+                    moveMapCenter(double.parse(onSelectedLat),
+                        double.parse(onSelectedLong));
                   },
                   clearOnSubmit: false,
                   //GlobalKey<AutoCompleteTextFieldState<T>>:is required to enable adding suggestions to the textfield
@@ -146,7 +159,80 @@ class _POILISTState extends State<POILIST> {
                   }),
             ]),
           ])),
-          //POILIST
+
+          //FlutterMap:START
+          Row(
+              mainAxisAlignment:
+                  MainAxisAlignment.center, //Center Column contents vertically,
+              crossAxisAlignment: CrossAxisAlignment
+                  .center, //Center Column contents horizontally,
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                FutureBuilder(
+                  future: getPOIdata(onSelectedCity),
+                  builder: (context, snapshot) {
+                    if (snapshot.hasData) {
+                      var items = snapshot.data as List<POI>;
+                      final markers = <Marker>[];
+                      for (var i = 0; i < items.length; i++) {
+                        POI currrentPoi = items[i];
+                        double lat = currrentPoi.lat;
+                        double long = currrentPoi.long;
+                        markers.add(Marker(
+                          width: 80,
+                          height: 80,
+                          point: LatLng(lat, long),
+                          builder: (ctx) => GestureDetector(
+                            onTap: () {
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (context) => PoiDetail(
+                                    title: 'Poi_detail',
+                                    city: onSelectedCity,
+                                    poi_detail_key_fsq_id:
+                                        items[i].poi_detail_key_fsq_id,
+                                    poi_name: items[i].poi_name,
+                                    poi_address: items[i].poi_address,
+                                  ),
+                                ),
+                              );
+                            },
+                            child: const Icon(Icons.pin_drop),
+                          ),
+                        ));
+                      }
+                      return Flexible(
+                          child: SizedBox(
+                              width: double.infinity,
+                              height: 300,
+                              child: Flexible(
+                                  child: FlutterMap(
+                                      mapController: _mapController,
+                                      options: MapOptions(
+                                          center: LatLng(
+                                              double.parse(onSelectedLat),
+                                              double.parse(onSelectedLong)),
+                                          zoom: 10),
+                                      children: [
+                                    TileLayer(
+                                      urlTemplate:
+                                          'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+                                      userAgentPackageName:
+                                          'dev.fleaflet.flutter_map.example',
+                                    ),
+                                    MarkerLayer(markers: markers),
+                                  ]))));
+                    } else if (snapshot.hasError) {
+                      return Text("${snapshot.error}");
+                    }
+                    // By default, show a loading spinner.
+                    return const Text("LOADING MAP...");
+                  },
+                )
+              ]),
+          //FlutterMap:END
+
+          //POILIST:START
           Expanded(
             child: FutureBuilder(
               future: getPOIdata(onSelectedCity),
@@ -236,7 +322,7 @@ class _POILISTState extends State<POILIST> {
                   return Text("${snapshot.error}");
                 }
                 // By default, show a loading spinner.
-                return Center(child: CircularProgressIndicator());
+                return const Text("LOADING LIST...");
               },
             ),
           ),
@@ -250,20 +336,26 @@ class POI {
   String poi_name = "";
   String poi_address = "";
   String poi_detail_key_fsq_id = "";
-
+  double lat = 0;
+  double long = 0;
   POI(
       {required this.poi_name,
       required this.poi_address,
-      required this.poi_detail_key_fsq_id});
+      required this.poi_detail_key_fsq_id,
+      required this.lat,
+      required this.long});
 
   //https://docs.flutter.dev/development/data-and-backend/json
   //  Map<String, dynamic> data = jsonDecode(response.body);
   //  String token = data["data"]["access_token"];
   factory POI.fromJson(Map<String, dynamic> json) {
     return POI(
-        poi_name: json['name'],
-        poi_address: json['location']['formatted_address'],
-        poi_detail_key_fsq_id: json['fsq_id']);
+      poi_name: json['name'],
+      poi_address: json['location']['formatted_address'],
+      poi_detail_key_fsq_id: json['fsq_id'],
+      lat: json['geocodes']['main']['latitude'],
+      long: json['geocodes']['main']['longitude'],
+    );
   }
 }
 
